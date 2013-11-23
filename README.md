@@ -19,14 +19,14 @@ The main app is the jar file 'UI-1.0-SNAPSHOT-jfx.jar'
 ### Screens in the UI ###
 **Login Screen:**
 Enter email. If you are an existing user, your subscription list will be shown, else you will automatically register as a new user
-![](/images/main_screen.png)
+![](images/main_screen.png)
 
 **Search Results Screen:**
 If product query, has multiple style the below window will be shown asking to select specific styles.
-![](//images/login_screen.png)
+![](images/login_screen.png)
 **Main Screen**
 Click on subscribe, to update the subscription list
-![](//images/results.png)
+![](images/results.png)
 
 
 ###Notification Service###
