@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <ImageView id="ImageView" fx:id="imageView" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.columnSpan="1" GridPane.rowIndex="0" GridPane.rowSpan="2" />
+    <Label fx:id="ProductNameLabel" alignment="TOP_LEFT" text="ProductName" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="0" GridPane.valignment="TOP">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Label>
+    <VBox id="VBox" alignment="CENTER" spacing="5.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+      <children>
+        <HBox>
+          <children>
+            <Label text="ProductId:">
+              <font>
+                <Font name="System Bold" size="12.0" fx:id="x1" />
+              </font>
+            </Label>
+            <Label fx:id="ProductIdLabel" text="Label" />
+          </children>
+        </HBox>
+        <HBox>
+          <children>
+            <Label font="$x1" text="StyleId:" />
+            <Label fx:id="StyleIdLabel" text="12345585" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+    <HBox GridPane.columnIndex="3" GridPane.rowIndex="0">
+      <children>
+        <Label font="$x1" text="OriginalPrice:" />
+        <Label id="CurrentPriceLabel" fx:id="OriginalPriceLabel" text="Label" />
+      </children>
+    </HBox>
+    <HBox GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <children>
+        <Label font="$x1" text="SalePrice:" />
+        <Label fx:id="SalePriceLabel" text="Label" />
+      </children>
+    </HBox>
+    <CheckBox fx:id="SelectedCheckBox" focusTraversable="false" mnemonicParsing="false" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="2" />
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="10.0" />
+    <ColumnConstraints percentWidth="40.0" />
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="25.0" />
+    <ColumnConstraints hgrow="SOMETIMES" percentWidth="25.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints percentHeight="50.0" />
+    <RowConstraints percentHeight="50.0" />
+  </rowConstraints>
+</GridPane>

@@ -1,0 +1,23 @@
+{"product": [
+    {
+        "defaultImageUrl": "http:\/\/www.zappos.com\/images\/z\/1\/7\/8\/8\/2\/2\/1788226-p-DETAILED.jpg",
+        "defaultProductUrl": "http:\/\/www.zappos.com\/product\/7515478",
+        "productId": "7515478",
+        "productName": "Gigi",
+        "styles": [
+            {
+                "originalPrice": "$65.00",
+                "price": "$65.00",
+                "color": "Almond",
+                "imageUrl": "http:\/\/www.zappos.com\/images\/z\/1\/7\/8\/8\/2\/2\/1788226-p-DETAILED.jpg",
+                "styleId": "1788226",
+                "productUrl": "http:\/\/www.zappos.com\/product\/7515478\/color\/25",
+                "percentOff": "0%",
+                "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/1\/7\/8\/8\/2\/2\/1788226-t-THUMBNAIL.jpg"
+            }
+
+        ],
+        "brandId": "632",
+        "brandName": "Sam Edelman"
+    }
+], "statusCode": "200"}

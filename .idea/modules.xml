@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BackendServices/BackendServices.iml" filepath="$PROJECT_DIR$/BackendServices/BackendServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service/Service.iml" filepath="$PROJECT_DIR$/Service/Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UI/UI.iml" filepath="$PROJECT_DIR$/UI/UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZapposNotification/ZapposNotification.iml" filepath="$PROJECT_DIR$/ZapposNotification/ZapposNotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZapposNotification/ZapposNotification.iml" filepath="$PROJECT_DIR$/ZapposNotification/ZapposNotification.iml" />
+    </modules>
+  </component>
+</project>
+

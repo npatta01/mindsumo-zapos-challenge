@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="798.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <GridPane id="GridPane" prefHeight="398.0" prefWidth="415.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <Label fx:id="emailLabel" text="Items to be notified off:" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0">
+          <font>
+            <Font name="System Bold" size="12.0" fx:id="x1" />
+          </font>
+        </Label>
+        <TableView fx:id="Products" maxWidth="1.7976931348623157E308" prefHeight="200.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+          <columns>
+            <TableColumn editable="false" prefWidth="100.0" fx:id="imageCol" />
+            <TableColumn editable="false" prefWidth="100.0" text="StyleId" fx:id="productIdCol" />
+            <TableColumn editable="false" prefWidth="100.0" text="Name" fx:id="productNameCol" />
+            <TableColumn editable="false" prefWidth="100.0" text="Price" fx:id="productPriceCol" />
+          </columns>
+        </TableView>
+        <GridPane id="GridPane" GridPane.columnIndex="0" GridPane.rowIndex="4">
+          <children>
+            <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" GridPane.columnIndex="0" GridPane.halignment="LEFT" GridPane.rowIndex="0">
+              <children>
+                <Button fx:id="InfoBtn" mnemonicParsing="false" text="Get Product Info" />
+                <Button fx:id="RemoveBtn" alignment="CENTER_RIGHT" mnemonicParsing="false" text="Remove" />
+              </children>
+            </HBox>
+            <Button fx:id="SubscribeBtn" alignment="TOP_LEFT" contentDisplay="CENTER" mnemonicParsing="false" text="Subscribe" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="0" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane id="GridPane" GridPane.columnIndex="0" GridPane.rowIndex="1">
+          <children>
+            <TextField fx:id="ProductIdPrompt" alignment="CENTER_RIGHT" prefWidth="123.0" promptText="Enter a Product Id  (115328) or Name (Classic Tall)" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Button fx:id="AddProductBtn" mnemonicParsing="false" text="Add" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="90.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <Label fx:id="errorLabel" maxWidth="1.7976931348623157E308" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="123.0" prefWidth="227.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <GridPane id="GridPane" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="-0.5" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.5">
+      <children>
+        <Label prefWidth="200.0" text="Email:" GridPane.rowIndex="0">
+          <font>
+            <Font name="System Bold" size="12.0" />
+          </font>
+        </Label>
+        <TextField fx:id="EmailInputPrompt" prefWidth="200.0" promptText="john.doe@gmail.com" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <Button fx:id="LoginBtn" prefWidth="200.0" text="Login" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="20.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="65.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="30.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>

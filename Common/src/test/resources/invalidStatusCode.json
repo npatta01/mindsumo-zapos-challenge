@@ -1,0 +1,122 @@
+{"statusCode": "500", "results": [
+    {
+        "styleId": "34320",
+        "price": "$195.00",
+        "originalPrice": "$195.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/115328\/color\/278",
+        "colorId": "278",
+        "productName": "Classic Tall",
+        "brandName": "UGG",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/3\/4\/3\/34320-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "115328"
+    },
+    {
+        "styleId": "34321",
+        "price": "$195.00",
+        "originalPrice": "$195.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/115328\/color\/621",
+        "colorId": "621",
+        "productName": "Classic Tall",
+        "brandName": "UGG",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/3\/4\/3\/34321-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "115328"
+    },
+    {
+        "styleId": "34319",
+        "price": "$195.00",
+        "originalPrice": "$195.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/115328\/color\/3",
+        "colorId": "3",
+        "productName": "Classic Tall",
+        "brandName": "UGG",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/3\/4\/3\/34319-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "115328"
+    },
+    {
+        "styleId": "287340",
+        "price": "$195.00",
+        "originalPrice": "$195.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/115328\/color\/18",
+        "colorId": "18",
+        "productName": "Classic Tall",
+        "brandName": "UGG",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/2\/8\/7\/3\/4\/0\/287340-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "115328"
+    },
+    {
+        "styleId": "441826",
+        "price": "$195.00",
+        "originalPrice": "$195.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/115328\/color\/401",
+        "colorId": "401",
+        "productName": "Classic Tall",
+        "brandName": "UGG",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/4\/4\/1\/8\/2\/6\/441826-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "115328"
+    },
+    {
+        "styleId": "949918",
+        "price": "$195.00",
+        "originalPrice": "$195.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/115328\/color\/9",
+        "colorId": "9",
+        "productName": "Classic Tall",
+        "brandName": "UGG",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/9\/4\/9\/9\/1\/8\/949918-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "115328"
+    },
+    {
+        "styleId": "2408563",
+        "price": "$195.00",
+        "originalPrice": "$195.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/115328\/color\/28061",
+        "colorId": "28061",
+        "productName": "Classic Tall",
+        "brandName": "UGG",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/2\/4\/0\/8\/5\/6\/2408563-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "115328"
+    },
+    {
+        "styleId": "2042692",
+        "price": "$180.00",
+        "originalPrice": "$180.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/8045294\/color\/3",
+        "colorId": "3",
+        "productName": "Classic Tall (Big Kid)",
+        "brandName": "UGG Kids",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/2\/0\/4\/2\/6\/9\/2042692-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "8045294"
+    },
+    {
+        "styleId": "2042693",
+        "price": "$180.00",
+        "originalPrice": "$180.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/8045294\/color\/278",
+        "colorId": "278",
+        "productName": "Classic Tall (Big Kid)",
+        "brandName": "UGG Kids",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/2\/0\/4\/2\/6\/9\/2042693-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "8045294"
+    },
+    {
+        "styleId": "2042694",
+        "price": "$180.00",
+        "originalPrice": "$180.00",
+        "productUrl": "http:\/\/www.zappos.com\/product\/8045294\/color\/18",
+        "colorId": "18",
+        "productName": "Classic Tall (Big Kid)",
+        "brandName": "UGG Kids",
+        "thumbnailImageUrl": "http:\/\/www.zappos.com\/images\/z\/2\/0\/4\/2\/6\/9\/2042694-t-THUMBNAIL.jpg",
+        "percentOff": "0%",
+        "productId": "8045294"
+    }
+], "term": "Classic Tall", "originalTerm": "Classic Tall", "currentResultCount": "10", "totalResultCount": "205"}
